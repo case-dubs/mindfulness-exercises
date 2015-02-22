@@ -232,6 +232,10 @@ i.fa.fa-youtube-play {
 #index #six-categories .center-section, #index #starter-content .center-section, #index #about-sean{
 	padding-top: 45px;
 }
+#index #six-categories i.fa{
+	font-size: 40px;
+	color: rgba(96, 171, 89, .7);
+}
 
 #starter-content a h4{
 	color: #60AB59;
@@ -282,6 +286,7 @@ i.fa.fa-youtube-play {
 #index h3, #index h4{
 	font-weight: 300;
 }
+
 #index h1, #index h2{
 	font-weight: 300;
 }
