@@ -1,0 +1,346 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(styles/normalize.css);
+@import url(styles/foundation.min.css);
+
+
+body, p{
+	font-family: "Sans Source Pro", sans-serif;
+	font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	font-weight: 300;
+}
+
+#index nav{
+	left: 0px;
+	border-bottom: 0px;
+	z-index: 1001;
+	background-color: transparent;
+	position: fixed;
+	width: 100%;
+	padding: 0px 45px;
+}
+
+nav img{
+	width: 200px;
+	margin: 10px 0px;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+	margin-right: 50px;
+	padding-top: 25px;
+	list-style-type: none;
+}
+nav ul li{
+	font-size: 15px;
+	color: rgba(250,250,250,.95);
+	display: inline-block;
+	padding: 0px 5px;
+	text-transform: uppercase;
+}
+
+#body-container{
+	max-width: 900px;
+	margin: 125px auto 50px;
+}
+
+#index nav.opaque, nav.opaque{
+	background-color: #60AB59;
+	background-color: rgba(96, 171, 89, .9);
+}
+
+#index #hero-section #thumbnail img{
+	top: -27px;
+	left: 0px;
+	width: 100%;
+	height: 641px;
+	position: relative;
+}
+
+#index #hero-section #thumbnail{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	-webkit-animation: feature-bg-anim .6s ease-in-out;
+	overflow: hidden;
+}
+
+#index #hero-section{
+	background: url(images/hero.jpg);
+	background-size: cover;
+}
+
+#index #hero-section .section-container{
+	padding: 125px 0px 50px;
+	background-color: rgba(0,0,0,.3);
+}
+
+.center-section {
+	z-index: 100;
+	position: relative;
+	width: 100%;
+	max-width: 956px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 32px;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+}
+
+#index #hero-section h1, #index #hero-section h3, #index #hero-section a{
+	color: white;
+}
+
+#index #hero-section h1{
+	font-size: 60px;
+	font-weight: 300;
+}
+
+#index #hero-section h3{
+	max-width: 100%;
+	margin: 0px auto;
+	letter-spacing: 1.3px;
+	font-weight: 100;
+	font-style: italic;
+	font-size: 40px;
+}
+
+#hero-section .center-section h4 {
+	color: white;
+	margin: 0 auto;
+}
+
+#index #hero-section a {
+	margin: 30px 10px 0px;
+	font-size: 15px;
+}
+
+#html5-watermark{
+	display: none !important;
+}
+
+#html5-elem-box{
+	top: 25px;
+}
+
+i.fa.fa-youtube-play {
+	margin-left: 10px;
+	font-size: 32px;
+	position: relative;
+	top: 5px;
+	display: inline-block;
+}
+
+#index{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+	line-height: 1.6em;
+	letter-spacing: 0px;
+	font-weight: 300;
+	font-style: normal;
+	color: #1f1f1f;
+}
+
+#index .button{
+	border-radius: 300em;
+}
+
+#index .row{
+	padding: 50px 35px;
+}
+
+#index .green{
+	background-color: rgba(234, 250, 224, 1);
+	max-width: none;
+}
+
+#index .get-instant-access p{
+	margin: 5px auto;
+	text-align: left;
+	max-width: 375px;
+}
+
+#index #benefits-of-mindfulness{
+	padding-top: 20px;
+}
+#index #benefits-of-mindfulness .row{
+	padding-top: 0px;
+}
+#index #benefits-of-mindfulness h4{
+	text-align: center;
+	padding: 10px 0px;
+}
+
+#index #benefits-of-mindfulness img{
+	border-radius: 50%;
+	display: block;
+	margin: 10px auto;
+}
+#index .get-instant-access p i, #index #benefits-of-mindfulness p i{
+	margin-right: 10px;
+	color: #60AB59;
+	font-size: 20px;
+}
+
+#index .get-instant-access .button{
+	margin-top: 15px;
+}
+#index #about-sean .title{
+	font-size: 16px;
+	font-weight: 300;
+	font-family: "Helvetica Neue";
+}
+
+#index .signup input[type="email"]{
+	display: inline-block;
+	width: 60%;
+	padding: 15px;
+	height: 60px;
+	margin: 20px;
+	border-radius: 10px;
+
+}
+.slide-container{
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.slide-container h4{
+	font-style: italic;
+	font-size: 18px;
+}
+
+.slide-container .thumb{
+	width: 150px;
+	margin: 10px auto;
+}
+
+#testimonials h4{
+	text-align: center;
+}
+#testimonials-slider{
+	text-align: center;
+}
+#testimonials-slider button{
+	padding: 8px 16px;
+	margin: 10px 5px 0px;
+}
+
+#index #six-categories .center-section, #index #starter-content .center-section{
+	padding-top: 45px;
+}
+
+#starter-content a h4{
+	color: #60AB59;
+	font-weight: 300;
+}
+
+#index #starter-content img, #index #starter-content h4, #index #starter-content p{
+	width: 90%;
+	margin: 10px 5%;
+}
+#index #starter-content .row{
+	padding-top: 0px;
+}
+#index #starter-content .center-section{
+	padding-bottom: 10px;
+}
+
+#index #starter-content .columns{
+	margin: 10px 0px;
+}
+#index #six-categories .row{
+	padding-top: 0px;
+}
+#index #examples h3{
+	text-align: left;
+	margin: 20px 0px;
+}
+
+#index #what-to-expect .row{
+	padding-top: 0px;
+}
+
+#index #what-to-expect .image-placeholder{
+	height: 200px;
+	background-color: #f8f3f2;
+	margin-bottom: 20px;
+}
+
+#index #request-free-analysis{
+	padding: 30px 0px;
+}
+
+
+#index h1, #index h2, #index h3, #index h4{
+	color: #4C4444;
+}
+
+#index h3, #index h4{
+	font-weight: 300;
+}
+#index h1, #index h2{
+	font-weight: 300;
+}
+
+#index footer .top-section {
+	background-color: #60AB59;
+	text-align: center;
+	padding: 20px 45px;
+	color: rgba(250,250,250,.8);
+}
+
+#index footer .top-section a{
+	color: rgba(250,250,250,.8);
+	font-weight: 300;
+	font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	font-size: 16px;
+}
+#index footer .top-section ul{
+	margin-bottom: 0px;
+}
+#index footer .top-section ul li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+#index footer .top-section a:hover{
+	color: white;
+}
+
+#index footer .bottom-section{
+	padding: 20px 45px;
+	text-align: center;
+}
+
+#index footer .bottom-section p{
+	margin: 0px;
+}
+
+@media (max-width: 767px){
+	#index #hero-section .section-container{
+		padding: 50px 0px 30px;
+	}
+	#index #hero-section .section-container h1, h1{
+		font-size: 36px;
+	}
+	#index #hero-section .section-container h3{
+		margin-bottom: 10px;
+		font-size: 24px;
+	}
+	#index #hero-section .section-container h3{
+		font-weight: 100;
+	}
+	#index nav {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#index nav img{
+		width: 150px;
+	}
+	#index nav ul{
+		margin-right: 0px;
+	}
+}
