@@ -343,9 +343,17 @@ i.fa.fa-youtube-play {
 		padding-right: 20px;
 	}
 	#index nav img{
-		width: 150px;
+		width: 120px;
+		padding-top: 10px;
 	}
 	#index nav ul{
 		margin-right: 0px;
+	}
+	#index nav ul li{
+		font-size: 14px;
+	}
+
+	#index #hero-section .center-section {
+		padding: 20px 5px;
 	}
 }
