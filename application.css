@@ -73,7 +73,7 @@ nav ul li{
 }
 
 #index #hero-section .section-container{
-	padding: 125px 0px 50px;
+	padding: 110px 0px 50px;
 	background-color: rgba(0,0,0,.3);
 }
 
@@ -91,6 +91,20 @@ nav ul li{
 
 #index #hero-section h1, #index #hero-section h3, #index #hero-section a{
 	color: white;
+}
+
+#index #hero-section input[type="email"], #index #hero-section input[type="text"]{
+	display: inline-block;
+	width: 35%;
+	padding: 15px;
+	height: 60px;
+	margin: 30px 10px 20px;
+	border-radius: 10px;
+}
+
+#index #hero-section #learn-more{
+	display: block;
+	margin-top: 5px;
 }
 
 #index #hero-section h1{
@@ -193,12 +207,12 @@ i.fa.fa-youtube-play {
 	font-family: "Helvetica Neue";
 }
 
-#index .signup input[type="email"]{
+#index .signup input[type="email"], #index .signup input[type="text"]{
 	display: inline-block;
-	width: 60%;
+	width: 35%;
 	padding: 15px;
 	height: 60px;
-	margin: 20px;
+	margin: 20px 10px;
 	border-radius: 10px;
 
 }
