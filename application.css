@@ -1,12 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
 @import url(styles/normalize.css);
 @import url(styles/foundation.min.css);
 
 
 body, p{
-	font-family: "Sans Source Pro", sans-serif;
-	font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-	font-weight: 300;
+	font-family: "Source Sans Pro", sans-serif;
+	/*font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;*/
+	font-weight: 200;
 }
 
 #index nav{
@@ -93,13 +93,35 @@ nav ul li{
 	color: white;
 }
 
-#index #hero-section input[type="email"], #index #hero-section input[type="text"]{
+#index input[type="email"], #index input[type="text"]{
 	display: inline-block;
-	width: 35%;
 	padding: 15px;
 	height: 60px;
 	margin: 30px 10px 20px;
 	border-radius: 10px;
+	text-align: center;
+}
+
+#index .af-element{
+	width: 45%;
+	display: inline-block;
+}
+
+#index .af-textWrap input[type="email"], #index .af-textWrap input[type="text"], #index .af-textWrap{
+	width: 96% !important;
+	font-size: 24px;
+}
+
+.previewLabel{
+	display: none;
+}
+
+.af-header{
+	display: none;
+}
+
+.af-body.af-standards{
+	padding: 10px 0px;
 }
 
 #index #hero-section #learn-more{
